@@ -1,0 +1,40 @@
+hr{
+    border-color: rgb(249, 245, 245);
+}
+
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    position: fixed;
+    flex:1;
+    flex-direction: column;
+    left:0;
+    top:8%;
+    min-width: 10%;
+    padding-left: 1.5%;
+
+    
+}
+
+.sidebar-link{
+        height:41px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width:1px;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img{
+    height:30px;
+
+}
+
+.sidebar-link div{
+    font-family: roboto,arial;
+    font-size: 13px;
+    padding-left: 20px;
+}

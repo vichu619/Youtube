@@ -1,0 +1,140 @@
+.header{
+    height:55px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px ;
+    border-bottom-style:solid;
+    border-bottom-color:  rgb(228,228,228);
+    z-index: 100;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}       
+
+.menu{
+    height: 24px;
+    margin-left:24px;
+    margin-right: 20px;
+
+}
+
+.logo{
+    height:20px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-left: 7%;
+    margin-right: 5%;
+    max-width:43%;
+    
+}
+
+.search-bar{
+    flex: hide;
+    height: 65.5%;
+    font-size: 100%;
+    padding-left: 1%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width:75%;
+    padding-right: 2%;
+}
+
+.search-bar::placeholder{
+    font-family: Arial;
+    font-size:100% ;
+    padding-left: 3%;
+}
+
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    margin-left: -1;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+.search-icon{
+    height:25px;
+    margin-top:4px ;
+}
+
+.voice-button{
+    height: 70%;
+    width: 7%;
+    border-radius: 200%;
+    border: none;
+}
+
+.voice-icon{
+    height:24px;
+    margin-top:4px;
+    background-color: rgb(240,240,240);
+}
+
+.right-section{
+    
+    width:10%;
+    padding-right:2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0px;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    height: 24px;
+}
+
+
+
+.notification-icon{
+    height: 24px;
+}
+
+.notification-icon-container{
+    position: relative;
+}
+
+.notifications-count{
+    position: absolute;
+    top:-5px;
+    right:-2px;
+    background-color: rgb(255, 0, 0);
+    color:white;
+    font-family: roboto ,arial;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+.current-user-pic{
+    height: 50%;
+    border-radius: 90%;
+}
